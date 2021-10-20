@@ -1,0 +1,132 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.container {
+	margin:0 auto;
+	width: 80%;
+}
+header h1 {
+	color: #33c9fc;
+	float: left;
+	padding: 15px 0;
+}
+header ul {;
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #33c9fc;
+	color: #fff;
+}
+.active {
+	background-color: #33c9fc;
+	color: #fff;
+}
+.banner {
+	height: 50vh;
+	background-image: url('../img/BG-INDEX.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	padding: 50px 0;
+}
+section h3 {
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 50px 0;
+	color: #33c9fc;
+	margin-bottom: 25px;
+}
+
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.list-produk
+{
+    border: 11.6px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    margin: 5px;
+}
+.list-produk img
+{
+    width: 100%;
+    height: 210px;
+    display: block;
+    margin-bottom: 20px;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: black;
+    text-align: center;
+    margin-bottom: 3px auto;
+}
+ 
+.tombol
+{
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 93%;
+    margin: 5px auto;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol:hover
+{
+    background-color: #186078;
+    transition-duration: 500ms;
+}
+ 
+.tombol-preview
+{
+    background-color: #33c9fc;
+}
+ 
+.tombol-sewa
+{
+    background-color: #33c9fc;
+}
+
+.container {
+	width: 90%;
+}
+header h1 {
+	text-align: center;
+	float: none;
+}
+header ul {
+	text-align: center;
+	float: none;
+}
+.box .col-4 {
+	width: 100%;
+	margin-bottom: 20px;
+}
